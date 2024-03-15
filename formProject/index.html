@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="">
+    <title>Inscription</title>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Inscription</a></li>
+                <li><a href="#">Connexion</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">À propos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <form action="#" method="POST">
+
+        <fieldset>
+
+            <legend>Inscription</legend>
+
+            <div class="container" >
+                <div class="form-group-prenom" >
+                    <label for="prenoms" class="prenom_1">Prénoms</label>
+                    <input type="text" id="prenoms" name="prenoms" required maxlength="50"><br><br>
+                </div>
+                <div class="form-group-nom" >
+                    <label for="nom" class="nom_1" >Nom</label>
+                    <input type="text" id="nom" name="nom" required maxlength="50"><br><br>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="form-group-email">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required maxlength="100"><br><br>
+                </div>
+                <div class="form-group-phone">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Numéro de téléphone" maxlength="20"><br><br>
+                </div>
+            </div>
+            
+
+            <div class="container">
+                <div class="form-group-password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="********" required minlength="8" ><br><br>
+                </div>
+                <div class="form-group-confirm-password">
+                    <label for="confirm_password">Confirme</label>
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="********" required minlength="8"><br><br>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="form-group-date-birth">
+                    <label for="dob">Birthday</label>
+                    <input type="date" id="dob" name="dob" required><br><br>
+                </div>
+                <div class="form-group-sexe">
+                    <label for="sexe">Sexe</label>
+                    <select name="sexe" id="sexe" required>
+                        <option value="Masculin">Masculin</option>
+                        <option value="Féminin">Féminin</option>
+                    </select><br><br>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="form-group-submit">
+                    <input type="submit" name="envoi" value="Créer le compte">
+                </div>
+                <div class="form-group-reset">
+                    <input type="reset" value="Annuler">
+                </div>
+            </div>
+
+            <p class="form-group-bottom-text">Avez-vous déjà un compte ? <a href="connexion.html">Connectez</a>-vous.</p>
+
+        </fieldset>
+
+    </form>
+
+    <footer>
+        <ul>
+            <li>Home</li>
+            <li>Inscription</li>
+            <li>Connexion</li>
+            <li>Contacts</li>
+            <li>À propos </li>
+            <span>&copy Ruthus Valam 2023</span>
+        </ul>
+    </footer>
+</body>
+</html>

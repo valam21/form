@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+}
+header{
+    border: 1px solid ;
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 25px;
+    height: 100px;
+}
+footer {
+    height: 400px;
+    background-color: cornflowerblue;
+}
+form {
+    margin-bottom: 100px;
+}
+fieldset{
+    border-radius: 15px 15px;
+    height: 600px;
+    width: 60%;
+    margin: 10px auto;
+    color: cornflowerblue;
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+legend{
+    margin-left: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+}
+.form-group-prenom {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-prenom label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 30%;
+}
+.form-group-prenom input {
+    height: 35px;
+    border-radius: 10px;
+    width: 100%;
+}
+.form-group-nom {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-nom label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 30%;
+}
+.form-group-nom input {
+    height: 35px;
+    border-radius: 10px;
+    width: 98%;
+}
+.form-group-email {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-email label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 20%;
+}
+.form-group-email input {
+    height: 35px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.form-group-phone {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-phone label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 10%;
+}
+.form-group-phone input {
+    height: 35px;
+    border-radius: 10px;
+    width: 98%;
+    font-size: 20px;
+}
+.form-group-password {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-password label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 20%;
+}
+.form-group-password input {
+    height: 35px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.form-group-confirm-password {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-confirm-password label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 10%;
+}
+.form-group-confirm-password input {
+    height: 35px;
+    border-radius: 10px;
+    width: 98%;
+    font-size: 20px;
+}
+.form-group-date-birth {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    font-size: 25px;
+
+    height: 45px;
+    width: 50%;
+}
+.form-group-date-birth label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 20%;
+}
+.form-group-date-birth input {
+    height: 35px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    border: 4px 4px 0px 0px;
+}
+.form-group-sexe {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    font-size: 25px;
+    margin-left: 25px;
+    height: 45px;
+    width: 50%;
+}
+.form-group-sexe label {
+    position: absolute;
+    top: -30px; /* Ajustez cette valeur selon votre mise en page */
+    margin-left: 30%;
+    
+}
+.form-group-sexe select {
+    height: 38px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0px 0px 1px 1px;
+}
+.form-group-submit {
+    height: 35px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+.form-group-submit input {
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.form-group-reset {
+    height: 35px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.form-group-reset input {
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.form-group-bottom-text {
+    color: black;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+.form-group-bottom-text a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
